@@ -1,0 +1,51 @@
+.column {
+    margin-right: 5%;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+a {
+    color: antiquewhite;
+}
+body {
+    background-image: url("https://cdn.discordapp.com/attachments/1078890940606976001/1162350793844871188/abstract-texture-simple-simple-background-wallpaper-preview.png?ex=653b9e88&is=65292988&hm=f93160ea9ffdcc2ecbf2ebc09280b86d44311ff63efc9eba9163cc59f4f58246&");
+    background-size: 65%;
+    color: antiquewhite;
+}
+p {
+    font-size: large;
+}
+@keyframes change-color {
+    0% {
+      box-shadow: 0 0 50px rgba(66, 133, 244); 
+    }
+    50% {
+      box-shadow: 0 0 100px rgba(219, 68, 55); 
+    }
+    100% {
+      box-shadow: 0 0 50px rgba(15, 157, 88); 
+    }
+}
+fieldset {
+    animation: change-color 4s infinite; 
+}
+.topnav {
+    background-color: #101010;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: rgb(40, 39, 39);
+}
+.qris {
+    display: flex;
+}
